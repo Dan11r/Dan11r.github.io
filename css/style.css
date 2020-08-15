@@ -28,6 +28,51 @@
     font-size: 10px;
   }
 }
+@keyframes stratch {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes color {
+  from {
+    background-color: red;
+  }
+  10% {
+    background-color: #E18012;
+  }
+  20% {
+    background-color: #74E10D;
+  }
+  40% {
+    background-color: #09E1C1;
+  }
+  60% {
+    background-color: #0C09E1;
+  }
+  80% {
+    background-color: #811AE1;
+  }
+  90% {
+    background-color: #E11272;
+  }
+  to {
+    background-color: #17E100;
+  }
+}
+@keyframes font {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 5rem;
+  }
+}
+.box {
+  animation: stratch 3s liner infinite alternate;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -248,4 +293,37 @@
   display: flex;
   justify-content: flex-end;
   flex-basis: 50%;
+}
+.box {
+  animation-name: stratch;
+  animation-duration: 0.9s;
+  animation-iteration-count: 1000;
+  animation-timing-function: liner;
+  animation-direction: alternate;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 110%;
+  width: 10%;
+  background-color: red;
+}
+.box h1 {
+  text-align: center;
+  vertical-align: center;
+  padding-top: 20%;
+  animation-name: font;
+  animation-duration: 0.9s;
+  animation-iteration-count: 1000;
+  animation-timing-function: liner;
+  animation-direction: alternate;
+}
+.inbox {
+  width: 100%;
+  height: 100%;
+  animation-name: color;
+  animation-duration: 0.9s;
+  animation-iteration-count: 1000;
+  animation-timing-function: liner;
+  animation-direction: alternate;
 }
