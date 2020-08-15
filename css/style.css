@@ -1,0 +1,251 @@
+.container {
+  padding: 0 15%;
+  background: transparent;
+  max-width: 1179px;
+  margin: 0 auto;
+}
+@media (max-width: 698px) {
+  .help {
+    display: none;
+  }
+  .contacts {
+    display: none;
+  }
+}
+@media (max-width: 578px) {
+  .Pricing {
+    display: none;
+  }
+  .Tour {
+    display: none;
+  }
+}
+@media (max-width: 645px) {
+  h1 {
+    margin-top: 70px;
+    margin-bottom: 36px;
+    font-size: 62px;
+    font-size: 10px;
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.first {
+  margin: 0 auto;
+  background: url(../images/426107b813c4b5245cf15efe2832f355.jpg) center / cover no-repeat;
+}
+.first__header {
+  background: transparent;
+}
+.first__row {
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 578px) {
+  .Pricing {
+    display: none;
+  }
+}
+.first__box-left ul {
+  padding: 0;
+  margin: 0px;
+  display: flex;
+}
+.first__box-left ul li {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 15px;
+}
+.first__box-left ul li:nth-child(1) {
+  padding-left: 0;
+}
+.first__box-left ul li a {
+  text-decoration: none;
+}
+.first__box-left ul li span {
+  text-decoration: none;
+  color: #26272D;
+}
+.first__box-left ul li span:hover {
+  color: #9F9FA1;
+}
+@media (max-width: 1001px) {
+  .first__box-center img {
+    display: none;
+  }
+}
+.first__box-right ul {
+  align-items: center;
+  display: flex;
+  margin: 0 0;
+  padding: 0;
+}
+.first__box-right ul .apple {
+  border-radius: 40px;
+  background: url(../images/Apple-Icon.png) 10px 20px no-repeat;
+  text-align: center;
+  padding: 23px 0 0 0;
+  background-color: #267DF4;
+  height: 40px;
+  width: 130px;
+  color: #ffffff;
+}
+.first__box-right ul .apple span {
+  color: #ffffff;
+}
+.first__box-right ul .apple a {
+  color: ffffff;
+}
+.first__box-right ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 15px;
+}
+.first__box-right ul li a {
+  text-decoration: none;
+}
+.first__box-right ul li span {
+  word-spacing: 7px;
+  font-size: 16px;
+  display: inline-block;
+  color: #26272D;
+  text-transform: capitalize;
+}
+.first__box-right ul li span:hover {
+  color: #9F9FA1;
+}
+.first__content {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.first__content button {
+  background: #edf0f2 url(../images/Play-Icon.png) 15% 50% no-repeat;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 17px 47px;
+  margin-top: 63px;
+}
+.first__content h1 {
+  margin-top: 90px;
+  margin-bottom: 56px;
+  font-size: 62px;
+  text-align: center;
+}
+.first__content-text {
+  display: inline-block;
+  max-width: 750px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.4;
+}
+.iphone {
+  position: absolute;
+  bottom: -200px;
+}
+@media (max-width: 799px) {
+  .iphone {
+    display: none;
+  }
+}
+.iphone img {
+  height: 500px;
+  transform: translateY(6%);
+}
+.time {
+  background-color: #fff;
+  position: relative;
+  z-index: 100;
+}
+.main-header {
+  padding: 0 15px;
+}
+.first__content-text {
+  padding: 0 15px;
+}
+.time__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px -52px;
+  padding: 135px 0px;
+}
+@media (max-width: 1000px) {
+  .time__row {
+    flex-wrap: wrap;
+  }
+  .time__row h2 {
+    text-align: center;
+  }
+}
+.time__block {
+  padding: 0 52px;
+}
+@media (max-width: 1000px) {
+  .time__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.time__block h2 {
+  margin: 42px 0;
+}
+.in-con {
+  width: 470px;
+}
+.in-con .btn {
+  background-color: #fff;
+  border: 1px solid #EBEBEB;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 15px 25px 15px 25px;
+}
+.in-con .pr-btn {
+  background: url(../images/Arrow-Icon.png) 170px 50% no-repeat;
+  margin-right: 20px;
+  color: #fff;
+  background-color: #267DF4;
+  padding: 15px 77px 15px 25px;
+}
+.in-con p {
+  font-size: 25px;
+  color: #8C8F94;
+  line-height: 1.4;
+}
+.in-con h3 {
+  width: 230px;
+  margin-top: 146px;
+  margin-bottom: 85px;
+  font-size: 42px;
+  color: #26272D;
+}
+.iphoni {
+  background: url(../images/iphone-feature.png) -17% 10% / auto no-repeat;
+  height: 100vh;
+  margin-top: -266px;
+}
+.iphoni__row {
+  width: 100%;
+  margin-top: 265px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+.iphoni__protect {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: 50%;
+}
