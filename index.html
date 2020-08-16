@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"> <!-- Font Awesome -->
   <link rel="stylesheet" href="css/normalize.css"> <!-- CSS reset -->
   <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
 
 </head>
 <body>
@@ -28,14 +32,14 @@
                 <li class="Pricing"><a href="#"><span>Pricing</span></a></li>
               </ul>
             </div>
-            <div class="first__box first__box-center">
+            <div class="first__box first__box-center animate__animated animate__swing animate__delay-2s animate__repeat-100 animate__slow">
               <img src="images/NewProvidence.jpg" alt="">
             </div>
             <div class="first__box first__box-right">
               <ul>
                 <li class="help"><a href="#"><span>Help</span></a></li>
                 <li class="contacts"><a href="#"><span>Contacts</span></a></li>
-                <li class="apple"><a  href="anim.html"><span>Нажми</span></a></li>
+                <li class="apple animate__animated animate__backInRight animate__delay-1s animate__repeat-1 animate__faster"><a  href="anim.html"><span>Нажми</span></a></li>
               </ul>
             </div>
           </div>
@@ -43,11 +47,11 @@
       </div>
       <div class="container_for_first">
         <div class="first__content">
-          <div class="main-header">
+          <div class="main-header ">
             <h1>nice dick!)</h1>
           </div>
           <span class="first__content-text">The sight of the tumblers restored Bob Sawyer to a degree of equanimity which he had not possessed since his interview with his landlady. His face brightened up, and he began to feel quite convivial.</span>
-          <button><span>Watch Video</span></button>   
+          <button class="anim_btn animate__animated animate__heartBeat animate__delay-2s animate__infinite"><span><a href="#popup">Watch Video</a></span></button>   
           <div class="iphone"><img src="images/iPhone-6.png" alt=""></div> 
         </div>
       </div>
@@ -90,6 +94,20 @@
       </div>
     </div>
   <div class="footer"></div>
+</div>
+
+
+<div id="popup" class="popup">
+  <a href="#" class="popup__area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+      <a href="#" class="popup_close">x</a>
+      <div class="video">
+        <iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/fRM4DUlfCMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
 </div>
 
 
